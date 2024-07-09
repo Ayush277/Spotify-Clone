@@ -4,9 +4,9 @@ Welcome to the Spotify Clone! This project is currently in the development phase
 
 Features:
 
-Browse Music: Discover a wide range of music genres and artists.
-Search: Find your favorite songs, albums, and artists with ease.
-Play Music: Enjoy seamless music playback.
+> Browse Music: Discover a wide range of music genres and artists.
+> Search: Find your favorite songs, albums, and artists with ease.
+> Play Music: Enjoy seamless music playback.
 
 
  
