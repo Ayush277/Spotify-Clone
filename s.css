@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: black;
+    color: white;
+}
+.left{
+    width: 25vw;
+    padding: 10px;
+}
+.right{
+    width: 75vw;
+}
+.home{
+    padding: 10px;
+    padding-left: 20px;
+}
+.home ul li{
+    display: flex;
+    gap: 22px;
+    width: 30px ;
+    list-style: none;
+    padding-top: 18px;
+    font-weight: bold;
+}
+.heading{
+    display: flex;
+    gap: 22px;
+    width: 100% ;
+    list-style: none;
+    padding-top: 18px;
+    font-weight: bold;
+    align-items: center;
+}
+.library{
+    min-height: 70vh;
+    position: relative;
+}
+.heading img{
+    width: 20px;
+}
+.footer{
+    display: flex;
+    font-size: 10px;
+    gap: 10px;
+    position: absolute;
+    bottom: 0;
+}
+.footer a{
+    color: grey;
+}
