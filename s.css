@@ -1,9 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 body{
-    background: black;
+    background: rgb(0, 0, 0);
     color: white;
 }
 .left{
@@ -13,41 +14,76 @@ body{
 .right{
     width: 75vw;
 }
-.home{
+/* .home{
     padding: 10px;
     padding-left: 20px;
-}
+} */
 .home ul li{
     display: flex;
-    gap: 22px;
-    width: 30px ;
+    gap: 15px;
+    width: 14px ;
     list-style: none;
-    padding-top: 18px;
+    padding-top: 14px;
     font-weight: bold;
 }
 .heading{
     display: flex;
-    gap: 22px;
+    gap: 15px;
     width: 100% ;
     list-style: none;
-    padding-top: 18px;
+    padding-top: 14px;
+    padding: 23px 14px;
     font-weight: bold;
     align-items: center;
-}
-.library{
-    min-height: 70vh;
-    position: relative;
+    font-size: 14px;
 }
 .heading img{
     width: 20px;
 }
+.library{
+    min-height: 80vh;
+    position: relative;
+}
+
+
 .footer{
     display: flex;
     font-size: 10px;
     gap: 10px;
     position: absolute;
     bottom: 0;
+    color: grey;
+    padding: 10px 0;
 }
 .footer a{
-    color: grey;
+    color: rgb(255, 255, 255);
+}
+.right{
+    position: relative;
+    padding: 16px 0 ;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(65, 65, 65);
+    
+}
+.header>*{
+    padding: 20px;
+}
+.spotifyplayists{
+    padding: 15px;
+}
+.spotifyplayists h1{
+    padding: 16;
+
+}
+.spotifyplayists .card{
+    width: 200px;
+}
+.card img{
+   width: 100%;
+    object-fit: contain;
 }
