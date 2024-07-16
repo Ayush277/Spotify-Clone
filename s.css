@@ -73,17 +73,50 @@ body{
 .header>*{
     padding: 20px;
 }
-.spotifyplayists{
-    padding: 15px;
+.spotifyPlaylists {
+    padding: 16px;
 }
-.spotifyplayists h1{
-    padding: 16;
 
+.spotifyPlaylists h1 {
+    padding: 16px;
 }
-.spotifyplayists .card{
+
+.cardContainer {
+    margin: 30px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    max-height: 60vh; 
+}
+.card {
     width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #252525;
+    position: relative;
+    transition: all .9s;
 }
-.card img{
-   width: 100%;
-    object-fit: contain;
+.card {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #252525;
+    position: relative;
+    transition: all .9s;
+}
+.play {
+    width: 28px;
+    height: 28px;
+    background-color: #1fdf64;
+    border-radius: 50%;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 88px;
+    right: 17px;
+    opacity: var(--a);
+    transition: all 1s ease-out;
 }
